@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<servlet>
+		<servlet-name>draw</servlet-name>
+		<servlet-class>servlet.draw</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>mapInit</servlet-name>
+		<servlet-class>servlet.mapInit</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>newMapInit</servlet-name>
+		<servlet-class>servlet.newMapInit</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>line</servlet-name>
+		<servlet-class>servlet.line</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>heatmap</servlet-name>
+		<servlet-class>servlet.heatmap</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>draw</servlet-name>
+		<url-pattern>/draw</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>mapInit</servlet-name>
+		<url-pattern>/mapInit</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>newMapInit</servlet-name>
+		<url-pattern>/newMapInit</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>line</servlet-name>
+		<url-pattern>/line</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>heatmap</servlet-name>
+		<url-pattern>/heatmap</url-pattern>
+	</servlet-mapping>
+</web-app>

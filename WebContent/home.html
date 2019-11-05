@@ -1,0 +1,59 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+<!-- 引入 jQuery 文件 -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!-- 引入 ECharts 文件 -->
+<script src="JS/dependences/echarts.min.js"></script>
+
+<style type="text/css">
+#allmap {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+#echart {
+	width: 100%;
+	height: 0px;
+	hidden:true;
+}
+#hide{
+	float:right;
+}
+
+
+</style>
+
+<script type="text/javascript"
+	src="http://api.map.baidu.com/api?v=2.0&ak=BAM9UXl74sBKhgOD0lxq65oUilsComx7"></script>
+
+<title>地图展示</title>
+</head>
+
+<body>
+	<div id="allmap"></div>
+	
+	<!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+	<div id="echart" hidden = true>
+		<div id="select">
+			车站编号: <a id="stationID"> </a>
+			<a id="date">&nbsp&nbsp&nbsp 日期：<input type="date" id="datepicker"></a>
+			<button id="draw">提交</button>
+			<button id="hide">隐藏</button>
+			
+		</div>
+		
+		<div id="echarts" style="width: 100%; height: 50%;">
+		
+		</div>
+	</div>
+
+</body>
+<script src="JS/home.js"></script>
+<script src="JS/echarts.js"></script>
+
+</html>
