@@ -14,8 +14,8 @@
 
 ## 项目效果展示
 
-![1](1.png)
-![2](2.png)
-![3](3.png)
-![4](4.png)
+![1](http://pic.xcq5120.xyz/mobike-visualize/1.png)
+![2](http://pic.xcq5120.xyz/mobike-visualize/2.png)
+![3](http://pic.xcq5120.xyz/mobike-visualize/3.png)
+![4](http://pic.xcq5120.xyz/mobike-visualize/4.png)
 
